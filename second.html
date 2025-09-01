@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">Shraddha Dighe</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">☰</div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="intro">
+            <div class="headings">
+                <h3 class="greet-heading" style="color:white;">Hello, I'm</h3>
+                <h1 class="my-heading" style="color: blue;">Shraddha Dighe</h1>
+                <h4 class="sub-heading">
+                       I am a passionate Front-End Developer with expertise in building dynamic and responsive web applications
+                </h4>
+            </div>
+            
+            <div class="intro-buttons">
+                <a class="btn common-btn">Hire Me</a>
+                <!-- <button class="btn ghost-btn" >Get Resume</button>
+                  -->
+
+                  <a href="Shraddha_Dighe_CV (1) (2).pdf" download class="btn ghost-btn">Get Resume</a>
+
+
+            </div>
+        
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>HTML5</h3>
+                    <p> HTML5 is the foundation of modern web development, providing a
+                             structured and semantic way to build web pages.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3> CSS(Cascading Style Sheets)</h3>
+                    <p>  CSS is used to style
+                             and layout web pages. It controls colors, fonts, spacing, and
+                              positioning of elements, making websites visually responsive.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>JavaScript</h3>
+                    <p>JavaScript is used for
+                             building interactive and dynamic web applications. It enables DOM manipulation, 
+                             event handling, and asynchronous programming (AJAX, Fetch API, Promises, Async/Await).</p>
+                </div>
+            </div>
+            <br><br>
+             
+        <div class="container">
+    
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Bootstrap</h3>
+                    <p>Bootstrap is a powerful CSS framework used to create responsive,
+                             mobile-first web designs quickly. It includes a grid system, 
+                             pre-designed components (buttons, modals, navbars), and utility
+                              classes for styling without writing extensive CSS.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Angular</h3>
+                    <p> Angular developers need expertise in TypeScript, RxJS, 
+                            and Angular CLI to build scalable web applications. They 
+                            must understand component-based architecture, two-way data binding,
+                             dependency injection,</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Java</h3>
+                    <p>ava is a powerful, object-oriented programming language 
+                            widely used for building web applications, mobile apps (Android), 
+                            enterprise software, and backend systems. Key Java skills include OOP 
+                            principles</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2>Project</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="m1.png" alt="Modern e-commerce website with clean user interface and shopping cart functionality" />
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Fully responsive online store with secure payment processing.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="m2.png" alt="Corporate business dashboard with data visualizations and analytics" />
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Multikart Website</h3>
+                        <p>Launch your dream online store with Multikart – a modern, responsive template designed for every kind of business.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="m3.png" alt="Mobile app interface with clean design and intuitive user experience" />
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Mobile App UI</h3>
+                        <p>User-friendly mobile application interface with smooth animations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2>Get In Touch</h2>
+                <p>shraddhadighe2019@gmail.com</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Tell us about your project" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 ShraddhaDighe. All rights reserved.</p>
+        </div>
+    </footer>
+
+   
+</body>
+</html>
